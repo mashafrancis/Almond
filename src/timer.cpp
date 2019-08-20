@@ -1,5 +1,5 @@
 // Francis Masha - Programmable Arduino thermostat.
-// by Vereint Corp.
+// by Almond.
 
 #include "DHT.h"
 #include <Wire.h>
@@ -11,7 +11,7 @@
 
 LiquidCrystal_I2C lcd(0x27,16, 4);
 //rgb_lcd lcd;
-RTC_DS3231:: rtc;
+RTC_DS3231 rtc;
 DateTime now;
 
 boolean displayAlarmSet = false;
